@@ -1,0 +1,117 @@
+body{
+    background-color: #b1dbf3;
+}
+
+#calculator{
+    background-color: white;
+    width:320px;
+    height:480px;
+    position: absolute; /*elementul se va poziționa în raport cu pagina web */
+    top: 50%; /*punctul de referinta al elementului este plasat in mijlocul parintelui*/
+    left: 50%;
+    transform: translate(-50%, -50%); /*centrarea elementului in raport cu punctul sau de referinta*/
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px 0px #546a80;
+}
+
+#afisaj{
+    background-color: #28354f;
+    width:320px;
+    height:80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+#butoaneOrizontale {
+    display: flex;
+}
+
+.actiuni {
+    width: 80px;
+    height: 80px;
+    background-color: #397f95; 
+    color: white; 
+    border:none;
+    border-right: 1px solid #68778e;
+    font-size:15px;
+}
+
+#inmultire{
+    border:0;
+    border-bottom: 1px solid #68778e;
+}
+
+#cifreCalculator {
+    display: flex;
+    flex-direction: column;
+    float:left;
+    width:75%;
+}
+
+.linie{
+    display:flex;
+}
+
+.cifra {
+    width: 80px;
+    height: 80px;
+    background-color: #28354f;
+    color: #677692;
+    border: none;
+    font-size: 24px;
+    border-right: 1px solid #68778e;
+    border-bottom: 1px solid #68778e;
+    font-size:20px;
+}
+
+.cifraZero {
+    width: 160px; 
+    height:80px;
+    background-color: #28354f;
+    color: #677692;
+    border: none;
+    font-size: 20px;
+    border-right: 1px solid #68778e;
+}
+
+.punct {
+    background-color: #28354f;
+    color: #677692;
+    border: none;
+    font-size: 20px; 
+    width:80px;
+    height:80px;
+    border-right: 1px solid #68778e;
+}
+
+#butoaneVerticale{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    float:right;
+    width:25%;
+}
+
+.alteActiuni{
+    width: 80px;
+    height: 80px;
+    background-color: #397f95; 
+    color: white; 
+    border:none;
+    border-bottom: 1px solid #68778e;
+    font-size: 20px; 
+}
+
+#egal{
+    width:80px;
+    height:160px;
+    background-color: #da8128;
+    color: white; 
+    border:none;
+}
